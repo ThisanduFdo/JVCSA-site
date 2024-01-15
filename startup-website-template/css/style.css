@@ -498,7 +498,7 @@ h6,
 }
 
 .topbar {
-background-color: #091E3E;
+background-color: #ffffff;
 display: flex;
 justify-content: space-between;
 padding-left: 50px;
@@ -509,8 +509,8 @@ max-height: 100px;
 }
 
 .topbar h1 {
-    color: white;
-    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
     padding: 20px;
 }
 
@@ -527,3 +527,8 @@ max-height: 100px;
  .logo3 {
     max-width: 20px;
 }
+
+@media (max-width: 1000px) {
+    .containertop { 
+      display: none; }
+    }
