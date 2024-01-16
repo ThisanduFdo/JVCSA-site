@@ -573,3 +573,9 @@ max-height: 100px;
 
     }
 }
+.upevent-img {
+    min-width: 250px;
+    width: 20vi;
+    border-radius: 0px;
+}
+
