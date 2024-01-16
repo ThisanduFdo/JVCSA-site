@@ -515,20 +515,30 @@ max-height: 100px;
 }
 
 .logo1 {
-    max-height: 47px;
+    max-width: 35px;
+    padding: 4px;
 
 }
 
 .logo2 {
-    max-height: 45px;
+    max-width: 33px;
+    padding: 4px;
  
  }
 
  .logo3 {
-    max-width: 20px;
+    max-width: 30px;
+    padding: 4px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) 
+{
     .containertop { 
       display: none; }
     }
+.logojvc {
+    max-width: 50px;
+}
+.logosa{
+    max-width: 60px;
+}
