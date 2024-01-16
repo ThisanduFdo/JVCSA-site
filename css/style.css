@@ -504,15 +504,17 @@ justify-content: space-between;
 padding-left: 50px;
 padding-right: 50px;
 flex-direction: row;
+text-align: center;
+
 align-items: center;
 max-height: 100px;
+height:     70px;
 }
 
 .topbar h1 {
     color: rgb(0, 0, 0);
     font-size: 25px;
-    padding: 30px;
-   
+    margin-bottom: -4px;
 }
 
 .logo1 {
@@ -537,12 +539,16 @@ max-height: 100px;
     .containertop { 
       display: none; }
     }
-.logojvc {
-    max-width: 50px;
+.logojvc{
+    max-height: 47px;
+
 }
+
 .logosa{
-    max-width: 60px;
-}
+    max-height: 45px;
+    margin-left: -20px;
+ 
+ }
 
 .service-block {
     padding: 20px;
