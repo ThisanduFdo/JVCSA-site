@@ -542,3 +542,33 @@ max-height: 100px;
 .logosa{
     max-width: 60px;
 }
+
+.service-block {
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+
+}
+
+.block-img {
+    min-width: 250px;
+    width: 20vi;
+    border-radius: 25px;
+}
+
+.service-block h4 {
+    padding: 15px;
+}
+
+.service-block p {
+    padding-bottom: 15px;
+}
+
+@media (max-width=1000px) {
+    .service-block {
+        padding: 10px;
+
+
+    }
+}
